@@ -2,6 +2,7 @@
 
 int main(void)
 {
-    float i = scanf("");
-    printf("You entered: %f", i);
+    float i;
+    scanf("%d" , &i);
+    printf("You entered: %d", i);
 }

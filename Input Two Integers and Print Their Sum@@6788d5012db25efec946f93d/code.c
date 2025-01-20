@@ -1,8 +1,11 @@
 #include <stdio.h>
 
-int main(void){
-    int a, int b;
-    scanf("%i" "%i", a, b);
+int main(void)
+{
+    int a;
+    int b;
+    scanf("%d", "%d", &a,&b);
     int c;
-    printf("Sum: %i", a + b);
+    c = a + b;
+    printf("Sum: %d", c);
 }

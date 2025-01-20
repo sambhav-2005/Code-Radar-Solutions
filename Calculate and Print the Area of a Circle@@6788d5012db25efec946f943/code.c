@@ -6,6 +6,6 @@ int main(void)
     scanf("%f", &r);
 
     float a = 3.14*(r**2.0);
-    printf("Area: %f", a);
+    printf("Area: %.2f", a);
 
 }

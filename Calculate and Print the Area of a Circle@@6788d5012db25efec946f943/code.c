@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 
 int main(void)
@@ -7,7 +6,7 @@ int main(void)
     float r;
     scanf("%f", &r);
 
-    float a = math.pi*(r**2);
+    float a = 3.14*(r**2.00);
 
 
     printf("Area: %.2f", a);

@@ -7,10 +7,10 @@ int main(void)
 
     if (a > b)
     {
-        printf(a);
+        printf("%d", a);
     }
     else
     {
-        printf(b);
+        printf("%d", b);
     }
 }

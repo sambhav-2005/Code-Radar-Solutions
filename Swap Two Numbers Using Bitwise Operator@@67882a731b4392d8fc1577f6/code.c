@@ -7,5 +7,5 @@ int main(void)
     int temp1, temp2;
     temp1 = *a;
     *b = temp2;
-    printf(temp2, temp1);
+    printf("%d %d", temp2, temp1);
 }

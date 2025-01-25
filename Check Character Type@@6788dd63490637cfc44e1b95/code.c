@@ -11,20 +11,20 @@ int main(void)
         ch = tolower(ch);
         if(ch == "a" || ch == "e" || ch == "i" || ch == "o" || ch == "u")
         {
-            printf("Vowel\n");
+            printf("Vowel");
         }
         else
         {
-            printf("Consonant\n");
+            printf("Consonant");
         }
     }
     else if (isdigit(ch))
     {
-        printf("Digit\n");
+        printf("Digit");
     }
     else
     {
-        printf("Special Character\n");
+        printf("Special Character");
     }
 
 }

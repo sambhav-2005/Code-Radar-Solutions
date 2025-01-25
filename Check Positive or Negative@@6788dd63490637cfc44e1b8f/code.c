@@ -6,14 +6,14 @@ int main(void)
     scanf("%d", &i);
     if (i > 0)
     {
-        printf("%c", Positive);
+        printf("%s", Positive);
     }
     else if (i < 0)
     {
-        printf("%c", Negative);
+        printf("%s", Negative);
     }
     else
     {
-        printf("%c", Zero);
+        printf("%s", Zero);
     }
 }

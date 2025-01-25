@@ -8,23 +8,23 @@ int main(void)
 
     if (isalpha(ch))
     {
-    ch = tolower(ch);
-    if(ch == "a" || ch == "e" || ch == "i" || ch == "o" || ch == "u")
-    {
-        printf("%s", "Vowel\n");
-    }
-    else
-    {
-        printf("%s", "Consonant\n");
-    }
+        ch = tolower(ch);
+        if(ch == "a" || ch == "e" || ch == "i" || ch == "o" || ch == "u")
+        {
+            printf("Vowel\n");
+        }
+        else
+        {
+            printf("Consonant\n");
+        }
     }
     else if (isdigit(ch))
     {
-        printf("%s", "Digit\n");
+        printf("Digit\n");
     }
     else
     {
-        printf("%s", "Special Character\n");
+        printf("Special Character\n");
     }
 
 }

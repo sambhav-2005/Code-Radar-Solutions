@@ -4,12 +4,12 @@ int main(void)
 {
     int a, b;
     scanf("%d %d", &a, &b);
-    if (a >= 18 && b = 1)
+    if (a < 18 && b = 0)
     {
-        printf("Eligible");
+        printf("Not Eligible");
     }
     else
     {
-        printf("Not Eligible");
+        printf("Eligible");
     }
 }

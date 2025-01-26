@@ -10,6 +10,6 @@ int main(void)
     }
     else
     {
-        priintf("Not Eligible");
+        printf("Not Eligible");
     }
 }

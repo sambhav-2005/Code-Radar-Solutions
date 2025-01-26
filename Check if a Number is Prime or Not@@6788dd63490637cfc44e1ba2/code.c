@@ -14,11 +14,12 @@ int main(void)
             if (a % i == 0)
             {
                 printf("Not Prime");
-                break;
+                return 0;
             }
             else
             {
                 printf("Prime");
+                return 1;
             }
         }
     }

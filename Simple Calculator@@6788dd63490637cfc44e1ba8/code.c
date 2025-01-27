@@ -3,7 +3,7 @@
 int main(void)
 {
     int a, b;
-    char opr = [2];
+    char opr = [1];
     scanf("%d %d %c", &a, &b, &opr);
     if (opr == "+")
     {

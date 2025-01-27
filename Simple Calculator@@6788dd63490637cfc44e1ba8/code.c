@@ -3,8 +3,9 @@
 int main(void)
 {
     int a, b;
-    char opr = [1];
-    scanf("%d %d %c", &a, &b, &opr);
+    char opr;
+    scanf("%d %d", &a, &b);
+    scanf("%c", &opr);
     if (opr == "+")
     {
         printf("%d", a + b);

@@ -5,19 +5,19 @@ int main(void)
     int a, b;
     char opr;
     scanf("%d %d %c", &a, &b, &opr);
-    if (opr == "+")
+    if (opr == '+')
     {
         printf("%d", a + b);
     }
-    else if (opr == "-")
+    else if (opr == '-')
     {
         printf("%d", a - b);
     }
-    else if (opr == "*")
+    else if (opr == '*')
     {
         printf("%d", a * b);
     }
-    else if (opr == "/")
+    else if (opr == '/')
     {
         printf("%d", a / b);
     }

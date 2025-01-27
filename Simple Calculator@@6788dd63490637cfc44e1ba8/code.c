@@ -6,19 +6,19 @@ int main(void)
     char opr;
     scanf("%d %d", &a, &b);
     scanf("%c", &opr);
-    if (opr == "+")
+    if (opr == +)
     {
         printf("%d", a + b);
     }
-    else if (opr == "-")
+    else if (opr == -)
     {
         printf("%d", a - b);
     }
-    else if (opr == "*")
+    else if (opr == *)
     {
         printf("%d", a * b);
     }
-    else if (opr == "/")
+    else if (opr == /)
     {
         printf("%d", a / b);
     }

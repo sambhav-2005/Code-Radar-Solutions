@@ -13,9 +13,9 @@ int main(void)
                 printf("*");
             }
         }
-        else
+        else if (j == i)
         {
-            printf("* *");
+            printf("*");
         }
         printf("\n");
     }

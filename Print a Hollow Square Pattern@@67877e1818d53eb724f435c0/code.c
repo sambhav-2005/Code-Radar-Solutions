@@ -15,7 +15,7 @@ int main(void)
         }
         else
         {
-            if (j == 1 || j == height)
+            if (j == 1 || j == i)
             {
                 printf("*");
             }

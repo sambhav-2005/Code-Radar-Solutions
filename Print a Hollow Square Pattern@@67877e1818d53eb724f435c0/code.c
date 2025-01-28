@@ -6,16 +6,15 @@ int main(void)
     scanf("%d", &height);
     for (int i = 1; i <= height; i++)
     {
+       for (int j = 1; j <= height; j ++)
+       {
         if (i == 1 || i == height)
         {
-            for (int j = 1; j <= height; j++)
-            {
-                printf("*");
-            }
+            printf("*");
         }
         else
         {
-            if (j == 1 || j == i)
+            if (j == 1 || j == height)
             {
                 printf("*");
             }
@@ -24,6 +23,7 @@ int main(void)
                 printf(" ");
             }
         }
-        printf("\n");
+       }
+       printf("\n");
     }
 }

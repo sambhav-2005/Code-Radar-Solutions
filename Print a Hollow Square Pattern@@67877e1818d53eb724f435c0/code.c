@@ -13,9 +13,12 @@ int main(void)
                 printf("*");
             }
         }
-        else if (j <= i)
+        else
         {
-            printf("*");
+            if (j == 1 || j == height)
+            {
+                printf("*");
+            }
         }
         printf("\n");
     }

@@ -6,7 +6,7 @@ int main(void)
     scanf("%d", &height);
     for (int i = 1; i <= height; i++)
     {
-        for (int j = 1; j < i + 1; j++)
+        for (int j = 1; j <= height; j++)
         {
             printf("* ");
         }

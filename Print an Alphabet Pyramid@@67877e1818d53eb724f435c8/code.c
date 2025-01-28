@@ -6,7 +6,7 @@ int main()
     char c = 'A';
     scanf("%d", &rows);
     for (int i = 1; i <= rows; i++)
-    { c = 'A';
+    {c = 'A';
         for (int j = 1; j < i + 1; j++)
         {
             printf("%c ", c);

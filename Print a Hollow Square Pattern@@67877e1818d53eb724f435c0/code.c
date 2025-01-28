@@ -13,7 +13,7 @@ int main(void)
                 printf("*");
             }
         }
-        else if (j == i)
+        else if (j <= i)
         {
             printf("*");
         }

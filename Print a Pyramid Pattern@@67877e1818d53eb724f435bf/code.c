@@ -8,7 +8,7 @@ int main(void)
     {
         if (i == 1)
         {
-            printf(" * ");
+            printf("*");
         }
         else
         {

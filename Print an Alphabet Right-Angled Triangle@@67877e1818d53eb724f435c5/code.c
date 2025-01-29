@@ -7,6 +7,7 @@ int main(void)
     scanf("%d", &height);
     for (int i = 1; i <= height; i++)
     {
+        char ch = 'A';
         for (int j = 1; j < i + 1; j++)
         {
             printf("%c", ch);

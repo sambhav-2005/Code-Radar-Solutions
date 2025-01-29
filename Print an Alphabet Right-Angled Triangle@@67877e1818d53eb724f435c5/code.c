@@ -10,7 +10,7 @@ int main(void)
         char ch = 'A';
         for (int j = 1; j < i + 1; j++)
         {
-            printf("%c", ch);
+            printf("%c ", ch);
             ch++;
         }
         printf("\n");

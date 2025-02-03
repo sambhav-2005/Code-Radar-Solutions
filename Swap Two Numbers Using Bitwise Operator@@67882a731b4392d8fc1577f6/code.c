@@ -7,7 +7,7 @@ int main(void)
     int temp;
     temp = a;
     b = a;
-    b = temp;
+    temp = b;
     printf("%d %d", a, b);
 
 }

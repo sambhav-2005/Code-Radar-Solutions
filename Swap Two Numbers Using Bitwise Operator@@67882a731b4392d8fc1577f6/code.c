@@ -4,5 +4,10 @@ int main(void)
 {
     int a, b;
     scanf("%d %d", &a, &b);
-    printf("%d %d", b, a);
+    int temp;
+    a = temp;
+    b = a;
+    temp = b;
+    printf("%d %d", a, b);
+
 }

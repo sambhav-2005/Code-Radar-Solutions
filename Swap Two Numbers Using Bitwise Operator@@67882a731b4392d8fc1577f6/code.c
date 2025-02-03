@@ -6,8 +6,8 @@ int main(void)
     scanf("%d %d", &a, &b);
     int temp;
     temp = a;
-    b = a;
-    temp = b;
+    a = b;
+    b = temp;
     printf("%d %d", a, b);
 
 }

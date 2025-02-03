@@ -5,9 +5,9 @@ int main(void)
     int a, b;
     scanf("%d %d", &a, &b);
     int temp;
-    a = temp;
+    temp = a;
     b = a;
-    temp = b;
+    b = temp;
     printf("%d %d", a, b);
 
 }

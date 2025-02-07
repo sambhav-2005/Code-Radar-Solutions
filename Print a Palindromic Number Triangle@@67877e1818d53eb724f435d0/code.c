@@ -4,13 +4,11 @@ int main(void)
 {
     int n;
     scanf("%d", &n);
-    int i = 0;
-    while(i <= n)
+    int i = 1;
+    int spaces = n - i;
+    while(spaces)
     {
-        int j = 0;
-        while(i <= n - i)
-        {
-            printf("*"); 
-        }
+        printf("*\n");
     }
+
 }

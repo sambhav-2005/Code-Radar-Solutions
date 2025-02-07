@@ -8,7 +8,7 @@ int main(void)
     int spaces = n - i;
     while(spaces)
     {
-        printf("*\n");
+        printf("*");
     }
 
 }

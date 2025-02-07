@@ -8,12 +8,7 @@ unsigned int setNthBit(unsigned int num, int n) {
 int main() {
     unsigned int num;
     int n;
-
-    // Input from the user
-    printf("Enter a number: ");
-    scanf("%u", &num);
-    printf("Enter the bit position to set (0-based index): ");
-    scanf("%d", &n);
+    scanf("%u %d", &num, &n);
 
     // Ensure the bit position is valid
     if (n < 0 || n >= (sizeof(num) * 8)) {
@@ -25,7 +20,7 @@ int main() {
     unsigned int result = setNthBit(num, n);
     
     // Output the result
-    printf("Number after setting bit %d: %u\n", n, result);
+    printf("%d", result);
 
     return 0;
 }

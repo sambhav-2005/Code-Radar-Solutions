@@ -3,16 +3,11 @@
 
 int main()
 {
-    long int n;
-    scanf("%i", &n);
+    int n;
+    scanf("%d", &n);
     int answer = 0;
     int i = 1;
-    if (n = 1024)
-    {
-        printf("10000000000");
-    }
-    else{
-        while(n != 0)
+    while(n != 0)
     {
         int bit = n & 1;
         answer += bit * i;
@@ -20,5 +15,5 @@ int main()
         i*=10;
     }
     printf("%d", answer);
-    }
+    return 0;
 }

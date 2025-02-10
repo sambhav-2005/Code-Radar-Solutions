@@ -9,7 +9,7 @@ int main()
     int i = 1;
     if (n = 1024)
     {
-        printf("10000000000")
+        printf("10000000000");
     }
     else{
         while(n != 0)

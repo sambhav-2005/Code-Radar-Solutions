@@ -1,10 +1,18 @@
 #include <stdio.h>
+#include <math.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
-    printf("%s", welcome());
-    return 0;
+int main()
+{
+    int n;
+    scanf("%d", &n);
+    int i = 0;
+    int answer = 0;
+    while(n != 0)
+    {
+        int bit = n & 1;
+        answer = (bit * pow(10, i)) + answer;
+        n = n >> 1;
+        i = i + 1;
+    }
+    printf("%d", answer);
 }

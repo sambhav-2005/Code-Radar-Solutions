@@ -12,7 +12,7 @@ int main()
         int bit = n & 1;
         answer = (bit * pow(10, i)) + answer;
         n = n >> 1;
-        i = i + 1;
+        i++;
     }
     printf("%d", answer);
 }

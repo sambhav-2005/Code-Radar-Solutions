@@ -4,7 +4,7 @@
 int main()
 {
     long int n;
-    scanf("%d", &n);
+    scanf("%i", &n);
     int answer = 0;
     int i = 1;
     while(n != 0)

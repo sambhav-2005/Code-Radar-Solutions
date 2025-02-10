@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n;
+    long int n;
     scanf("%d", &n);
     int answer = 0;
     int i = 1;

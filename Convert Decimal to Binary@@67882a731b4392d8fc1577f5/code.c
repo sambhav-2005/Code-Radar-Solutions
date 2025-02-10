@@ -5,8 +5,8 @@ int main()
 {
     int n;
     scanf("%d", &n);
-    int i = 0;
     int answer = 0;
+    int i = 0;
     while(n != 0)
     {
         int bit = n & 1;
@@ -15,4 +15,5 @@ int main()
         i++;
     }
     printf("%d", answer);
+    return 0;
 }

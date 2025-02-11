@@ -1,29 +1,24 @@
 #include <stdio.h>
 
-int checkprime(int n)
+int isPrime(int n)
 {
-    int n;
-    scanf("%d", &n);
-    if(n < 2)
+    if (n < 2)
     {
         return 0;
     }
+    else if (n == 2)
+    {
+        return 1;
+    }
     else
     {
-        int i = 2;
-        while(i < n)
+        for(int i = 2; i < n; i++)
         {
-            if(n % i == 0)
+            if (n % i == 0)
             {
                 return 0;
-                break;
-                i++;
             }
-            else
-            {
-                return 1;
-            }
+            return 1;
         }
     }
-
 }

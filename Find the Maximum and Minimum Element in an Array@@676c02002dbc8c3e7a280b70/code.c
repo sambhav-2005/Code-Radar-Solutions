@@ -35,7 +35,11 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    printf("%d", getMin(arr, size));
-    printf("%d", getMax(arr, size));
+
+    int max_num = getMax(arr, size);
+    int min_num = getMin(arr, size);
+    printf("%d %d", min_num, max_num);
+
+    return 0;
 }
 

@@ -2,8 +2,8 @@
 
 int getMax(int arr[], int num)
 {
-    int max = INT32_MIN;
-    for(int i = 0; i < num; i++)
+    int max = arr[0];
+    for(int i = 1; i < num; i++)
     {
         if(i > max)
         {
@@ -15,8 +15,8 @@ int getMax(int arr[], int num)
 
 int getMin(int arr[], int num)
 {
-    int min = INT32_MAX;
-    for(int i = 0; i < num; i++)
+    int min = arr[0];
+    for(int i = 1; i < num; i++)
     {
         if(i < min)
         {

@@ -16,7 +16,7 @@ void iterate(int arr[], int size)
     {
         int sum_of_each_digit = calcSum(arr[i]);
 
-        printf("%d ", calcSum(arr[i]));
+        printf("%d ", sum_of_each_digit);
     }
 
 }

@@ -12,7 +12,7 @@ int calcSum(int n)
 }
 void iterate(int arr[], int size)
 {
-    for(int = 0; i < size; i++)
+    for(int i = 0; i < size; i++)
     {
         int sum_of_each_digit = calcSum(arr[i]);
 

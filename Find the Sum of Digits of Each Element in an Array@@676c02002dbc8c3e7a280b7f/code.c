@@ -3,6 +3,10 @@
 int calcSum(int n)
 {
     int sum = 0;
+    if(n < 0)
+    {
+        return -(n);
+    }
     while(n != 0)
     {
         int digit = n % 10;

@@ -5,7 +5,7 @@ int calcSum(int n)
     int sum = 0;
     if(n < 0)
     {
-        return -(n);
+        -(n);
     }
     while(n != 0)
     {

@@ -9,6 +9,7 @@ int calcSum(int n)
         sum = sum + digit;
         n/=10;
     }
+    return sum;
 }
 void iterate(int arr[], int size)
 {

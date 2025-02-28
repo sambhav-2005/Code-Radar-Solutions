@@ -16,14 +16,14 @@ int main(void)
 {
     int arr[100];
     int size;
+    int k;
 
-    scanf("%d", &size);
+    scanf("%d %d", &size, &k);
     for(int i = 0; i < size; i++)
     {
         scanf("%d", &arr[i]);
     }
-    int k;
-    scanf("%d", &k);
+    
 
     int result = count(arr, size, k);
     printf("%d", result);

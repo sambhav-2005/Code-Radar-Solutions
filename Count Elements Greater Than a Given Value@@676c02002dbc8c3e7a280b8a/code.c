@@ -3,7 +3,7 @@
 int count(int arr[], int size, int k)
 {
     int count = 0;
-    for(int i = 0, i < size, i++)
+    for(int i = 0; i < size; i++)
     {
         if(arr[i] > k)
         {

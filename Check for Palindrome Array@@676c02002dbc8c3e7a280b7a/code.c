@@ -19,7 +19,6 @@ void reversed(int arr[], int size)
         start++;
         end--;
     }
-    printArray(arr, size);
 }
 void printArray(int arr[], int size)
 {
@@ -38,4 +37,5 @@ int main(void)
         scanf("%d", &arr[i]);
     }
     reversed(arr, size);
+    printArray(arr, size);
 }

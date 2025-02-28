@@ -19,9 +19,15 @@ void reversed(int arr[], int size)
         start++;
         end--;
     }
-    
+    printArray(arr, size);
 }
-
+void printArray(int arr[], int size)
+{
+    for(int i = 0; i < size; i++)
+    {
+        printf("%d", arr[i]);
+    }
+}
 int main(void)
 {
     int arr[100];

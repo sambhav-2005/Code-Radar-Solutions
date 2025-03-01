@@ -21,7 +21,7 @@ int countPalindromes(int arr[], int size)
     int count_of_palindromes = 0;
     for(int i = 0; i < size; i++)
     {
-        if(checkPalindrome(arr[i]));
+        if(checkPalindrome(arr[i]))
         {
             count_of_palindromes++;
         }

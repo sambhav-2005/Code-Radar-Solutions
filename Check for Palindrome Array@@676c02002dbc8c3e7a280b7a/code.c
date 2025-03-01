@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<stdbool.h>
+
 
 bool check_palindromic(int arr[], int size)
 {

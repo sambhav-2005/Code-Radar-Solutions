@@ -4,6 +4,7 @@
 
 bool checkPalindrome(int n)
 {
+    int original = n;
     int answer = 0;
     while(n != 0)
     {
@@ -11,14 +12,8 @@ bool checkPalindrome(int n)
         answer = digit + (answer*10);
         n/=10;
     }
-    if(answer == n)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return answer == original;
+
 }
 
 int countPalindromes(int arr[], int size)
@@ -46,6 +41,9 @@ int main(void)
         
     }
 
-    printf("%d", countPalindromes(arr, size));
+    int count = countPalindromes(arr, size);
 
+    printf("%d", count);
+
+    return 0;
 }

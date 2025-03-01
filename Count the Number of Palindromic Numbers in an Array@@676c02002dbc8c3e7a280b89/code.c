@@ -6,6 +6,10 @@ bool checkPalindrome(int n)
 {
     int original = n;
     int answer = 0;
+    if (n < 0)
+    {
+        -(n);
+    }
     while(n != 0)
     {
         int digit = n % 10;

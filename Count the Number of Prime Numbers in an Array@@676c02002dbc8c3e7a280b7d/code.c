@@ -49,6 +49,6 @@ int main(void)
 
     }
 
-    cout << checkPrime(arr, size);
+    printf("%d", checkPrime(arr, size));
 
 }

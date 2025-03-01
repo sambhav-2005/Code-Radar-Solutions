@@ -8,7 +8,7 @@ bool checkPalindrome(int n)
     int answer = 0;
     if (n < 0)
     {
-        -(n);
+        return false;
     }
     while(n != 0)
     {

@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdbool.h>
+
 
 bool checkPalindrome(int n)
 {
@@ -45,5 +47,5 @@ int main(void)
     }
 
     printf("%d", count_of_palindromes(arr, size));
-    
+
 }

@@ -23,7 +23,7 @@ int countPalindromes(int arr[], int size)
     {
         if(checkPalindrome(arr[i]));
         {
-            count_of_palindromes = count_of_palindromes + 1;
+            count_of_palindromes++;
         }
     }
     return count_of_palindromes;
@@ -42,7 +42,6 @@ int main(void)
     }
 
     int count = countPalindromes(arr, size);
-
     printf("%d", count);
 
     return 0;

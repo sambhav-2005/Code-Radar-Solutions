@@ -1,32 +1,22 @@
 #include <stdio.h>
 
-void swap(int a, int b)
-{
-    int temp;
-    temp = a;
-    a = b;
-    b = temp;
-
-    printf("%d %d", a, b);
-}
-void reversed(int arr[], int size)
+void check_palindromic(int arr[], int size)
 {
     int start = 0;
     int end = size - 1;
-    while(start <= end)
+
+    while(start < end)
     {
-        swap(arr[start], arr[end]);
+        if(arr[start] != arr[end])
+        {
+            return false;
+        }
         start++;
         end--;
     }
+    return true;
 }
-void printArray(int arr[], int size)
-{
-    for(int i = 0; i < size; i++)
-    {
-        printf("%d", arr[i]);
-    }
-}
+
 int main(void)
 {
     int arr[100];
@@ -36,6 +26,14 @@ int main(void)
     {
         scanf("%d", &arr[i]);
     }
-    reversed(arr, size);
-    printArray(arr, size);
+    if(check_palindromic(arr, size))
+    {
+        printf("Yes");
+    }
+    else
+    {
+        printf("No");
+    }
+
+    return 0;
 }

@@ -30,11 +30,11 @@ int main(void)
     }
     if(check_palindromic(arr, size))
     {
-        printf("Yes");
+        printf("YES");
     }
     else
     {
-        printf("No");
+        printf("NO");
     }
 
     return 0;

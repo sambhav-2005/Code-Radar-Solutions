@@ -46,6 +46,6 @@ int main(void)
         
     }
 
-    printf("%d", count_of_palindromes(arr, size));
+    printf("%d", countPalindromes(arr, size));
 
 }

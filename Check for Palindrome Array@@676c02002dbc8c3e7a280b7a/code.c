@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void check_palindromic(int arr[], int size)
+bool check_palindromic(int arr[], int size)
 {
     int start = 0;
     int end = size - 1;

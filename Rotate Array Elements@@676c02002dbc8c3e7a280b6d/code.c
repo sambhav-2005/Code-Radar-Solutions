@@ -23,7 +23,7 @@ void rotateArray(int arr[], int size, int k)
     }
     for(int m = 0; m < k; m++)
     {
-        arr[i] = temp[i]; // Copying back the elements from temp array to begining of the original array.
+        arr[m] = temp[m]; // Copying back the elements from temp array to begining of the original array.
     }
     
 

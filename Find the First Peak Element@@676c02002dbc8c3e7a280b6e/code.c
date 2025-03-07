@@ -7,20 +7,17 @@ int peakElement(int arr[], int size)
     {
         if(i == 0 && arr[1] > arr[0])
         {
-            peak = arr[1];
+            peak == arr[1];
         }
         else if(i == size-1 && arr[size-2] > arr[size-1])
         {
-            peak = arr[size-2];
+            peak == arr[size-2];
         }
         else if(arr[i] > arr[i-1] && arr[i] > arr[i+1])
         {
-            peak = arr[i];
+            peak == arr[i];
         }
     }
-
-
-
     return peak;
 }
 

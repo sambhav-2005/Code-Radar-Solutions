@@ -3,7 +3,7 @@
 int secondLargest(int arr[], int size)
 {
     int max = arr[0];
-    int secondmax = -1;
+    int secondmax = -1111122222;
 
     for(int i = 0; i < size; i++)
     {

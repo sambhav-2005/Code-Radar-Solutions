@@ -34,7 +34,7 @@ int main(void)
         scanf("%d", &arr[i]);
     }
 
-    cout << secondLargest(arr, size);
+    printf("%d", secondLargest(arr, size));
 
     return 0;
 }

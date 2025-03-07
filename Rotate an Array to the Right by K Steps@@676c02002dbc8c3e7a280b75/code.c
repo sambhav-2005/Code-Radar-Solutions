@@ -10,6 +10,7 @@ void printArray(int arr[], int size)
 
 void rotateArray(int arr[], int size, int k)
 {
+    k = k%size;
     int temp[k];
 
     for(int i = 0; i < k; i++)

@@ -18,6 +18,10 @@ int peakElement(int arr[], int size)
             peak = arr[i];
             break;
         }
+        else
+        {
+            printf("-1");
+        }
     }
     return peak;
 }

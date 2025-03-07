@@ -21,7 +21,7 @@ void rotateArray(int arr[], int size, int k)
     {
         arr[j] = arr[j-k]; // Shifting the remaining elements to right most.
     }
-    for(int m = 0; m < k; i++)
+    for(int m = 0; m < k; m++)
     {
         arr[i] = temp[i]; // Copying back the elements from temp array to begining of the original array.
     }

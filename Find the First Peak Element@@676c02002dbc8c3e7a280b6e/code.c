@@ -18,10 +18,6 @@ int peakElement(int arr[], int size)
             peak = arr[i];
             break;
         }
-        else
-        {
-            peak = arr[0] || peak = arr[size-1];
-        }
     }
     return peak;
 }

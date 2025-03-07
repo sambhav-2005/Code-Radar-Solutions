@@ -20,7 +20,7 @@ int peakElement(int arr[], int size)
         }
         else
         {
-            printf("-1");
+            peak = -1;
         }
     }
     return peak;

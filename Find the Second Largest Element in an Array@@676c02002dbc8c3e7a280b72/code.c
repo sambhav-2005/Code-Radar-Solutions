@@ -12,7 +12,7 @@ int secondLargest(int arr[], int size)
             secondmax = max;
             max = arr[i];
         }
-        else if(arr[i] > second max && arr[i] != max)
+        else if(arr[i] > secondmax && arr[i] != max)
         {
             secondmax = arr[i];
         }

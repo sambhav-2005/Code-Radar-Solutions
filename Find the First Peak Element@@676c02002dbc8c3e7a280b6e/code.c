@@ -5,13 +5,13 @@ int peakElement(int arr[], int size)
     int peak;
     for(int i = 0; i < size;i++)
     {
-        if(i == 0 && arr[1] > arr[0])
+        if(i == 0 && arr[0] > arr[1])
         {
-            peak = arr[1];
+            peak = arr[0];
         }
-        else if(i == size-1 && arr[size-2] > arr[size-1])
+        else if(i == size-1 && arr[size-1] > arr[size-2])
         {
-            peak = arr[size-2];
+            peak = arr[size-1];
         }
         else if(arr[i] > arr[i-1] && arr[i] > arr[i+1])
         {

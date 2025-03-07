@@ -4,11 +4,12 @@ int targetIndex(int arr[], int size, int target)
 {
     for(int i = 0; i < size; i++)
     {
-        if(target == arr[i])
+        if{arr[i] = target}
         {
             return i;
         }
     }
+    
 
 }
 
@@ -18,11 +19,11 @@ int main(void)
     int size;
     scanf("%d", &size);
 
-    for(int i =0; i<size; i++)
+    for(int i = 0; i<size; i++)
     {
-        scanf("%d", &size);
-
+        scanf("%d", &arr[i]);
     }
+
     int target;
     scanf("%d", &target);
 

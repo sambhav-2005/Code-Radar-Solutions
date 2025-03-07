@@ -3,21 +3,18 @@
 int secondLargest(int arr[], int size)
 {
     int max = arr[0];
-    int secondmax = -1111122222;
+    int secondmax = -1;
 
     for(int i = 0; i < size; i++)
     {
         if(arr[i] > max)
         {
-            max = arr[i];
             secondmax = max;
+            max = arr[i];
         }
-        for(int j = 0; j < size; j++)
+        else if(arr[i] > second max && arr[i] != max)
         {
-            if(arr[j] > secondmax && arr[j] != max)
-            {
-                secondmax = arr[j];
-            }
+            secondmax = arr[i];
         }
     }
     return secondmax;

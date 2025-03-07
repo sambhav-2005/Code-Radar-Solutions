@@ -15,8 +15,8 @@ int secondLargest(int arr[], int size)
     {
         if(arr[i] > max)
         {
-            max = arr[i];
             secondmax = max;
+            max = arr[i];
         }
         else if(arr[i] > secondmax && arr[i] != max)
         {

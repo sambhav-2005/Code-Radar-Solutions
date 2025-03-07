@@ -9,6 +9,7 @@ int targetIndex(int arr[], int size, int target)
             return i;
         }
     }
+    return -1;
     
 
 }

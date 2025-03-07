@@ -13,7 +13,7 @@ int peakElement(int arr[], int size)
         {
             peak = arr[size-2];
         }
-        else(arr[i] > arr[i-1] && arr[i] > arr[i+1])
+        else if(arr[i] > arr[i-1] && arr[i] > arr[i+1])
         {
             peak = arr[i];
             break;

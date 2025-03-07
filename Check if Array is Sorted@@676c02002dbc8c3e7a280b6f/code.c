@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdbool.h>
 
 bool sorted(int arr[], int size)
 {

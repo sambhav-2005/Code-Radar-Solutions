@@ -25,7 +25,7 @@ int main(void)
 
     }
 
-    if(checkMonotonic(arr))
+    if(checkMonotonic(arr, size))
     {
         printf("YES");
     }

@@ -1,9 +1,15 @@
 #include<stdio.h>
+#include<limits.h>
 
 int secondLargest(int arr[], int size)
 {
+    if(size < 2)
+    {
+        return -1;
+    }
     int max = arr[0];
-    int secondmax = -1;
+    int secondmax = INT_MIN;
+
 
     for(int i = 0; i < size; i++)
     {
@@ -17,7 +23,7 @@ int secondLargest(int arr[], int size)
             secondmax = arr[i];
         }
     }
-    return secondmax;
+    return (secondmax == INT_MIN) ? -1 : secondmax;
 }
 
 int main(void)

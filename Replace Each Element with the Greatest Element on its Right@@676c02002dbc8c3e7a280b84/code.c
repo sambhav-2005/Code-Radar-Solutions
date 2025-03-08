@@ -41,6 +41,7 @@ int main(void)
     }
 
     swapRight(arr, size);
+    printArray(arr, size);
 
     return 0;
 }

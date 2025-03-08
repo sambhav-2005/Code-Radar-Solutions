@@ -9,7 +9,7 @@ void printArray(int arr[], int size)
     printf("\n");
 }
 
-void swapRight(int arr[], int size)
+void replaceRight(int arr[], int size)
 {
     for(int i = 0; i < size; i++)
     {
@@ -32,7 +32,7 @@ int main(void)
         scanf("%d", &arr[i]);
     }
 
-    swapRight(arr, size);
+    replaceRight(arr, size);
     printArray(arr, size);
 
     return 0;

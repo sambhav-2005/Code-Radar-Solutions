@@ -8,16 +8,9 @@ int largestEven(int arr[], int size)
     int largest = INT_MIN;
     for(int i = 0; i < size; i++)
     {
-        if(arr[i] > largest)
+        if(arr[i] > largest && arr[i] % 2 == 0)
         {
-            if(arr[i] % 2 == 0)
-            {
-                largest = arr[i];
-            }
-            else
-            {
-                return -1;
-            }
+            largest = arr[i];
         }
     }
     return largest;

@@ -13,6 +13,10 @@ bool checkMonotonic(int arr[], int size)
         {
             return true;
         }
+        else if(arr[i] = arr[i+1])
+        {
+            return true;
+        }
         else
         {
             return false;

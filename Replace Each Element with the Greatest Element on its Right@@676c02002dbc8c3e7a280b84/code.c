@@ -9,21 +9,13 @@ void printArray(int arr[], int size)
     printf("\n");
 }
 
-void swap(int a, int b)
-{
-    int temp;
-    temp = a;
-    a = b;
-    b = temp;
-}
-
 void swapRight(int arr[], int size)
 {
     for(int i = 0; i < size; i++)
     {
         if(arr[i] < arr[i + 1])
         {
-            swap(arr[i], arr[i+1]);
+            arr[i] = arr[i+1];
         }
     }
     arr[size-1] = -1;

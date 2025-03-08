@@ -13,7 +13,7 @@ void replaceRight(int arr[], int size)
 {
     int maxRight = -1;
 
-    for(int i = size-1; i > 0; i--)
+    for(int i = size-1; i >= 0; i--)
     {
         int temp = arr[i];
         arr[i] = maxRight;

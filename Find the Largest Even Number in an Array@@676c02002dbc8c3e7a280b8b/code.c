@@ -2,7 +2,7 @@
 
 int largestEven(int arr[], int size)
 {
-    int largest = arr[0];
+    int largest = -1;
 
     for(int i = 0; i < size; i++)
     {

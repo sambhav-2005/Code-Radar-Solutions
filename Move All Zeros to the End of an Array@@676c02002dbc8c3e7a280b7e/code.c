@@ -6,7 +6,6 @@ void printArray(int arr[], int size)
     {
         printf("%d ", arr[i]);
     }
-    printf("\n");
 }
 
 void moveZeros(int arr[], int size, int arr2[], int size_arr2)

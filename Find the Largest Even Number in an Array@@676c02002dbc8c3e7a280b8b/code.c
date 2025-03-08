@@ -1,8 +1,10 @@
 #include<stdio.h>
+#include<limits.h>
+
 
 int largestEven(int arr[], int size)
 {
-    int largest = -1;
+    int largest = INT_MIN;
 
     for(int i = 0; i < size; i++)
     {

@@ -33,7 +33,7 @@ void moveZeros(int arr[], int size, int arr2[], int size_arr2)
     }
 }
 
-int main(void)
+int main()
 {
     int arr[100];
     int size;

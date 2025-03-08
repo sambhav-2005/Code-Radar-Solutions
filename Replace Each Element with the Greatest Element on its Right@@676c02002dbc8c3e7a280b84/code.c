@@ -11,14 +11,13 @@ void printArray(int arr[], int size)
 
 void replaceRight(int arr[], int size)
 {
-    for(int i = 0; i < size; i++)
+    for(int i =0; i < size; i++)
     {
-        if(arr[i+1] > arr[i])
+        while(arr[i+1] > arr[i])
         {
             arr[i] = arr[i+1];
         }
     }
-    arr[size-1] = -1;
 }
 
 int main(void)

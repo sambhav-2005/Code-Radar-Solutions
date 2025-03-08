@@ -18,6 +18,7 @@ void replaceRight(int arr[], int size)
             arr[i] = arr[i+1];
         }
     }
+    arr[size-1] = -1;
 }
 
 int main(void)

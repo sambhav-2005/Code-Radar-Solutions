@@ -12,7 +12,7 @@ void printArray(int arr[], int size)
 void moveZeros(int arr[], int size, int arr2[], int size_arr2)
 {
     size_arr2 = 0;
-    count_of_zeros = 0;
+    int count_of_zeros = 0;
     for(int i = 0; i < size; i++)
     {
         if(arr[i] == 0)

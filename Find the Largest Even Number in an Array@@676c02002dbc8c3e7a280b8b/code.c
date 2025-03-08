@@ -1,14 +1,11 @@
 #include<stdio.h>
-#include<stdbool.h>
-#include<limits.h>
-
 
 int largestEven(int arr[], int size)
 {
-    int largest = INT_MIN;
+    int largest = -1;
     for(int i = 0; i < size; i++)
     {
-        if(arr[i] > largest && arr[i] % 2 == 0)
+        if(arr[i] % 2 == 0 && arr[i] > largest)
         {
             largest = arr[i];
         }

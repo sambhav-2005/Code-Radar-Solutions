@@ -12,6 +12,10 @@ int largestEven(int arr[], int size)
         {
             largest = arr[i];
         }
+        else if(arr[i] > largest && arr[i] % 2 != 0)
+        {
+            largest = -1;
+        }
     }
     return largest;
 }

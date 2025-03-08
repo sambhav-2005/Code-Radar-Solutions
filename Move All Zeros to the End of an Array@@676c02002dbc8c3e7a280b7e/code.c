@@ -6,6 +6,7 @@ void printArray(int arr[], int size)
     {
         printf("%d ", arr[i]);
     }
+    printf("\n");
 }
 
 void moveZeros(int arr[], int size, int arr2[], int size_arr2)
@@ -22,14 +23,13 @@ void moveZeros(int arr[], int size, int arr2[], int size_arr2)
         {
             arr2[size_arr2] = arr[i];
             size_arr2++;
-            int size_arr3 = size_arr2;
         }
     }
     
     for(int j = 0; j < count_of_zeros; j++)
     {
-        arr2[size_arr3] = 0;
-        size_arr3++; 
+        arr2[size_arr2] = 0; 
+        size_arr2++;
     }
 }
 
@@ -44,11 +44,11 @@ int main(void)
         scanf("%d", &arr[i]);
     }
 
-    int arr2[];
-    int size_arr2;
+    int size_arr2 = 0;
+    int arr2[100];
 
     moveZeros(arr, size, arr2, size_arr2);
     printArray(arr2, size_arr2);
 
-
+    return 0;
 }

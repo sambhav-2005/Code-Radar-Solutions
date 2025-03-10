@@ -10,12 +10,12 @@ int secondSmallest(int arr[], int size)
         if(arr[i] < smallest)
         {
             secondSmallest = arr[i];
-            smallest = secondSmallest;
+            smallest = secondsmallest;
 
         }
 
     }
-    return secondSmallest;
+    return secondsmallest;
 }
 
 int main()

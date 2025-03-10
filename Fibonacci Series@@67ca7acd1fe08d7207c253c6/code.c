@@ -9,13 +9,14 @@ void fibonacciSeries(int n)
         printf("1");
     }
     else{
-        int a = 0, b = 1;
+        int a = 0, b = 1, c;
         int i = 0;
-        while(i < n)
+        while(i <= n)
         {
-            printf("%d ", b);
+            printf("%d ", a);
+            c = a+b;
             a = b;
-            b = a+b;
+            b = c;
             i++;
         } 
     }

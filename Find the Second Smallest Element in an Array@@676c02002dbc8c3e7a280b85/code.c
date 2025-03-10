@@ -5,7 +5,7 @@ int secondSmallest(int arr[], int size)
 {
     if (size == 1)
     {
-        return arr[0];
+        secondsmallest = arr[0];
     }
     int smallest = arr[0];
     int secondsmallest = INT_MAX;

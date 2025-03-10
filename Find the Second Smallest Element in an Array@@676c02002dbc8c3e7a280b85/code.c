@@ -9,7 +9,7 @@ int secondSmallest(int arr[], int size)
     {
         if(arr[i] < smallest)
         {
-            secondSmallest = arr[i];
+            secondsmallest = arr[i];
             smallest = secondsmallest;
 
         }

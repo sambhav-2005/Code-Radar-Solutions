@@ -1,7 +1,12 @@
 void fibonacciSeries(int n)
 {
-    int a = 0; int b = 1;
-    printf("%d %d", a, b);
-
+    if(n == 1)
+    {
+        printf("0");
+    }
+    else if(n == 2)
+    {
+        printf("1");
+    }
     
 }

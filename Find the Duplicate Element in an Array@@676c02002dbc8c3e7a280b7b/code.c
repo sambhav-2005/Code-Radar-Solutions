@@ -1,11 +1,14 @@
 #include<stdio.h>
 
-void duplicateElement(int arr[], int size)
+int duplicateElement(int arr[], int size)
 {
+    int answer = 0;
     for(int i = 0; i < size; i++)
     {
-
+        answer = answer ^ answer[i];
     }
+
+    return answer;
 }
 
 int main(void)

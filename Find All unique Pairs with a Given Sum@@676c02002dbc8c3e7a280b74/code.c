@@ -13,7 +13,7 @@ int pairSum(int arr[], int size, int targetSum, int arr2[][2])
     int size_arr2 = 0;
     for(int i = 0; i < size; i++)
     {
-        for(int j = i+1; j < size; i++)
+        for(int j = i+1; j < size; j++)
         {
             if(arr[i] + arr[j] == targetSum)
             {

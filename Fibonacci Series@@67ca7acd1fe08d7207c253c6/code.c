@@ -11,7 +11,7 @@ void fibonacciSeries(int n)
     else{
         int a = 0, b = 1, c;
         int i = 0;
-        while(i <= n)
+        while(i < n)
         {
             printf("%d ", a);
             c = a+b;

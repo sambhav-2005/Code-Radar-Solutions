@@ -9,8 +9,7 @@ void fibonacciSeries(int n)
         printf("1");
     }
     else{
-        int a = 0;
-        int b = 1;
+        int a = 0, b = 1;
         int i = 0;
         while(i < n)
         {

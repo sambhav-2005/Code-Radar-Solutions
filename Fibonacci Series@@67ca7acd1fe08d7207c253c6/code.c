@@ -5,8 +5,10 @@ void fibonacciSeries(int n)
     int c;
     while(i <= n)
     {
+        printf("%d %d", a, b);
         printf("%d ", c);
         a = b;
         c = a+b;
+        i++;
     }
 }

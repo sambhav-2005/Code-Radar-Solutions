@@ -36,6 +36,7 @@ void printPrimesInRange(int a, int b)
         else if(checkPrime(i) == 0)
         {
             printf("No prime numbers");
+            break;
         }
     }
 

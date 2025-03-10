@@ -10,5 +10,6 @@ void fibonacciSeries(int n)
         printf("%d ", c);
         a = b;
         b = c;
+        i++;
     }
 }

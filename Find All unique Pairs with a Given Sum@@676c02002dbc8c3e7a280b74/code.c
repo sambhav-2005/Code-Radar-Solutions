@@ -19,6 +19,7 @@ int pairSum(int arr[], int size, int targetSum, int arr2[][2])
             {
                 arr2[size_arr2][0] = arr[i];
                 arr2[size_arr2][1] = arr[j];
+                break;
                 size_arr2++;
             }
         }

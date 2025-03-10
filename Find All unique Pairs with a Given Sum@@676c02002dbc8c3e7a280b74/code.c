@@ -22,7 +22,6 @@ int pairSum(int arr[], int size, int targetSum, int arr2[][2])
                 size_arr2++;
             }
         }
-        break;
     }
     return size_arr2;
 }

@@ -27,12 +27,18 @@ bool checkPrime(int n)
 
 void printPrimesInRange(int a, int b)
 {
+    bool found = false;
     for(int i = a; i <= b; i++)
     {
         if(checkPrime(i))
         {
             printf("%d ",i);
+            found = true;
         }
+    }
+    if (!found)
+    {
+        printf("No prime numbers");
     }
 
 }

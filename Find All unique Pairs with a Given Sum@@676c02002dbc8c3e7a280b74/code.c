@@ -4,7 +4,7 @@ void printPairs(int arr2[][2], int size_arr2)
 {
     for(int i = 0; i < size_arr2; i++)
     {
-        printf("%d %d", arr2[i][0], arr2[i][1]);
+        printf("%d %d\n", arr2[i][0], arr2[i][1]);
     }
 }
 
@@ -26,7 +26,7 @@ int pairSum(int arr[], int size, int targetSum, int arr2[][2])
     return size_arr2;
 }
 
-int main(void)
+int main()
 {
     int arr[100];
     int size;

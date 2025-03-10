@@ -16,10 +16,6 @@ int secondSmallest(int arr[], int size)
         {
             secondsmallest = arr[i];
         }
-        else if(size == 1)
-        {
-            secondSmallest = arr[i];
-        }
 
     }
     return secondsmallest;

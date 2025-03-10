@@ -34,8 +34,8 @@ int main()
     {
         scanf("%d", arr[i]);
     }
-    int secondel = secondSmallest(arr, size);
 
+    int secondel = secondSmallest(arr, size);
     printf("%d", secondel);
 
 }

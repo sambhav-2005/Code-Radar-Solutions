@@ -12,7 +12,7 @@ int secondSmallest(int arr[], int size)
             secondsmallest = smallest;
             smallest = arr[i];
         }
-        else if(arr[i] < secondsmallest && arr[i] != secondsmallest)
+        else if(arr[i] > secondsmallest && arr[i] < secondsmallest)
         {
             secondsmallest = arr[i];
         }

@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 bool checkPrime(int n)
 {
     if(n < 2)

@@ -33,9 +33,9 @@ int main()
     for(int i = 0; i < size; i++)
     {
         scanf("%d", arr[i]);
-
     }
+    int secondel = secondSmallest(arr, size);
 
-    printf("%d", secondSmallest(arr, size));
+    printf("%d", secondel);
 
 }

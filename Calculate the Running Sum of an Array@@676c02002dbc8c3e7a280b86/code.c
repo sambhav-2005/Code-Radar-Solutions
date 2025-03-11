@@ -9,14 +9,14 @@ void printArray(int arr[], int size)
     printf("\n");
 }
 
-void rotateArray(int arr[], int size, int arr2[size])
+void rotateArray(int arr[], int size, int arr2[])
 {
     int sum = 0;
     int size_arr2 = 0;
     for(int i = 0; i < size; i++)
     {
         sum = sum + arr[i];
-        arr2[i] = sum;
+        arr2[size_arr2] = sum;
         size_arr2++;
     }
 }

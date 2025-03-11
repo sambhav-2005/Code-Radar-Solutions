@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void runningSum(int arr[], int size, int arr2[][i])
+void runningSum(int arr[], int size, int arr2[][i], int size_arr2)
 {
     int sum = 0;
     int size_arr2 = 0;
@@ -8,6 +8,7 @@ void runningSum(int arr[], int size, int arr2[][i])
     {
         sum = sum + arr[i];
         arr2[][i] = sum;
+        size_arr2++;
     }
 
 }

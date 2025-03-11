@@ -9,7 +9,7 @@ void printArray(int arr[], int size)
     printf("\n");
 }
 
-void rotateArray(int arr[], int size, int arr2[])
+void runningSum(int arr[], int size, int arr2[])
 {
     int sum = 0;
     int size_arr2 = 0;

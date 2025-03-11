@@ -1,5 +1,9 @@
 #include<stdio.h>
 
+int duplicateElement(int arr[], int size)
+{
+    
+}
 
 
 int main()
@@ -12,8 +16,8 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-
-
+    
+    duplicateElement(arr, size);
 
     return 0;
 }

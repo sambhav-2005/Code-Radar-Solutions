@@ -1,6 +1,14 @@
 #include <stdio.h>
 
-void runningSum(int arr[], int size, int arr2[][i], int size_arr2)
+void printArray(int arr[], int size)
+{
+    for(int i = 0; i < size; i++)
+    {
+        printf("%d", arr[i]);
+    }
+    printf("\n");
+}
+int runningSum(int arr[], int size, int arr2[][i], int size_arr2)
 {
     int size_arr2 = 0;
     int sum = 0;
@@ -8,9 +16,9 @@ void runningSum(int arr[], int size, int arr2[][i], int size_arr2)
     {
         sum = sum + arr[i];
         arr2[][i] = sum;
-        printf("%d ",arr2[][i]);
         size_arr2++;
     }
+    return size_arr2;
 }
 
 int main()
@@ -28,4 +36,6 @@ int main()
     int arr2[100];
 
     runningSum(arr, size, arr2, size_arr2);
+    printArray(arr2, size_arr2);
+    return 0;
 }

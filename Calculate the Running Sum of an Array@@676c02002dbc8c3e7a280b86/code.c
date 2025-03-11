@@ -30,8 +30,7 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    
-    int size_arr2 = 0;
+
     int arr2[100];
 
     runningSum(arr, size, arr2);

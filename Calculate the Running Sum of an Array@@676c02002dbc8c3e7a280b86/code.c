@@ -25,5 +25,5 @@ int main()
     int size_arr2 = 0;
     int arr2[100];
 
-    runningSum(arr2, size_arr2);
+    runningSum(arr, size, arr2, size_arr2);
 }

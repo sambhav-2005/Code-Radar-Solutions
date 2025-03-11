@@ -34,7 +34,7 @@ int main()
     int arr2[100];
 
     runningSum(arr, size, arr2);
-    printArray(arr2, size_arr2);
+    printArray(arr2, size);
 
     return 0;
 }

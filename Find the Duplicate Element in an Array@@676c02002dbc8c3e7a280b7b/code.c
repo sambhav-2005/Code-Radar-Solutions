@@ -11,7 +11,7 @@ int duplicateElement(int arr[], int size)
     return answer;
 }
 
-int main(void)
+int main()
 {
     int arr[100];
     int size;
@@ -20,7 +20,6 @@ int main(void)
     for(int i = 0; i < size;i++)
     {
         scanf("%d", &arr[i]);
-
     }
 
     duplicateElement(arr, size);

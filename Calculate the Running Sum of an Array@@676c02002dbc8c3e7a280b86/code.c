@@ -28,10 +28,10 @@ int main()
     scanf("%d", &size);
 
     int size_arr2 = 0;
-    arr2[100];
+    int arr2[100];
 
     runningSum(arr, size, arr2);
-    printArray(arr, size);
+    printArray(arr2, size_arr2);
 
     return 0;
 }

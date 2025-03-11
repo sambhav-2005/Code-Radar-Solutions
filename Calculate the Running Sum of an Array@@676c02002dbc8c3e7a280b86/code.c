@@ -8,7 +8,7 @@ void printArray(int arr[], int size)
     }
     printf("\n");
 }
-int runningSum(int arr[], int size, int arr2[][i], int size_arr2)
+int runningSum(int arr[], int size, int arr2[][], int size_arr2)
 {
     int size_arr2 = 0;
     int sum = 0;

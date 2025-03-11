@@ -6,7 +6,7 @@ void printLeaders(int arr[], int size)
     {
         if(arr[i] < arr[i-1])
         {
-            printf("%d", arr[i]);
+            printf("%d ", arr[i]);
         }
     }
 }

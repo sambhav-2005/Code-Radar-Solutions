@@ -25,8 +25,7 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-
-    duplicateElement(arr, size);
+    printf("%d", duplicateElement(arr, size));
 
     return 0;
 }

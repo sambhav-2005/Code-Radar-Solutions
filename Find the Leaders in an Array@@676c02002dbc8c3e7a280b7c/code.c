@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <cmath.h>
 
 void printLeaders(int arr[], int size)
 {

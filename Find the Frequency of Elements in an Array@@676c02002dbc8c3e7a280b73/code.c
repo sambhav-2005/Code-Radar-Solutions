@@ -26,6 +26,7 @@ int main()
     for(int i = 0; i < size; i++)
     {
         scanf("%d", &arr[i]);
+        frequencyCount(arr, size);
     }
 
     printf("%d", frequencyCount(arr, size));

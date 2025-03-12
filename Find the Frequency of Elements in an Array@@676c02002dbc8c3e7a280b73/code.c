@@ -2,10 +2,10 @@
 
 int frequencyCount(int arr[], int size)
 {
+    int counter = 1;
     for(int i = 0; i < size; i++)
     {
         int element = arr[i];
-        int counter = 1;
         for(int j = i+1; j < size; j++)
         {
             if(arr[j] == element)

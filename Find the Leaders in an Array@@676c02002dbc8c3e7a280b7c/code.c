@@ -9,7 +9,7 @@ int printLeaders(int arr[], int size)
             if(arr[i] > arr[j])
             {
                 
-                return arr[i];
+                printf("%d ",arr[i])
             }
         }
     }

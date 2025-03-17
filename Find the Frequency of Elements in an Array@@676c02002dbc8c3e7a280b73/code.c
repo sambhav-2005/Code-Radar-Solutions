@@ -12,7 +12,7 @@ int main()
     {
         scanf("%d", &arr[i]);
 
-        if visited[i] == 1;
+        if(visited[i] == 1);
         continue;
 
         int counter = 1;

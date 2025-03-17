@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void printLeaders(int arr[], int size)
+int printLeaders(int arr[], int size)
 {
     for(int i = 0; i < size; i++)
     {
@@ -8,7 +8,8 @@ void printLeaders(int arr[], int size)
         {
             if(arr[i] > arr[j])
             {
-                printf("%d ", arr[i]);
+                
+                return arr[i];
             }
         }
     }
@@ -26,7 +27,7 @@ int main()
 
     }
 
-    printLeaders(arr, size);
+    printf("%d ",printLeaders(arr, size));
 
     return 0;
 }

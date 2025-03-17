@@ -1,13 +1,15 @@
 #include <stdio.h>
-#include <math.h>
 
 void printLeaders(int arr[], int size)
 {
-    for(int i = size-1; i > 0; i--)
+    for(int i = 0; i < size; i++)
     {
-        if(arr[i] < arr[i-1])
+        for(int j = i+1; j < size; j++)
         {
-            printf("%d ", arr[i]);
+            if(arr[i] > arr[j])
+            {
+                printf("%d ", arr[i]);
+            }
         }
     }
 }
@@ -18,9 +20,10 @@ int main()
     int size;
     scanf("%d", &size);
 
-    for(int i = 0; i< size; i++)
+    for(int i = 0; i < size; i++)
     {
         scanf("%d", &arr[i]);
+
     }
 
     printLeaders(arr, size);

@@ -12,6 +12,7 @@ int firstRepeating(int arr[], int size)
             }
         }
     }
+    return -1;
 }
 
 int main(void)

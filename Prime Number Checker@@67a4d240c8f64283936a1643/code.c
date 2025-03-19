@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int isPrime(int n)
 {
     if (n < 2)

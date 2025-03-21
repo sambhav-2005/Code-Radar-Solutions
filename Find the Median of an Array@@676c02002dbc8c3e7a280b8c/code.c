@@ -1,5 +1,15 @@
 #include<stdio.h>
 
+int medianEl(int arr[], int size)
+{
+    int start = 0;
+    int end = size - 1;
+    int mid = (start + end)/2;
+
+
+    return mid;
+}
+
 int main()
 {
     int size;
@@ -10,10 +20,9 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
+    
+    int median = medianEl(arr, size);
+    printf("%d", median);
 
-    int start = 0;
-    int end = size - 1;
-    int mid = (start + end)/ 2;
-
-    printf("%d", arr[mid]);
+    return 0;
 }

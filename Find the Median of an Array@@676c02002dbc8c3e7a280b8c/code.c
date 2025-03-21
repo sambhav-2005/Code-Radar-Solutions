@@ -5,8 +5,12 @@ int medianEl(int arr[], int size)
     int start = 0;
     int end = size - 1;
     int mid = (start + end)/2;
-
-
+    int median;
+    if(size % 2 == 0)
+    {
+        median = (mid + (mid + 1)) / 2;
+    }
+    
     return arr[mid];
 }
 

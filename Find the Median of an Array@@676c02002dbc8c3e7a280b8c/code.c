@@ -3,7 +3,7 @@
 int medianEl(int arr[], int size)
 {
     int start = 0;
-    int end = size - 1;
+    int end = size;
     int mid = (start + end)/2;
     int median;
     if(size % 2 == 0)

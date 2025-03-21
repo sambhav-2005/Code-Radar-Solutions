@@ -1,11 +1,3 @@
-int swap(int a, int b)
-{
-    int temp;
-    temp = a;
-    a = b;
-    b = temp;
-}
-
 void printArray(int arr[], int n)
 {
     for(int i = 0; i < n; i++)
@@ -27,6 +19,9 @@ void selectionSort(int arr[], int n)
                 minIndex = j;
             }
         }
-        swap(arr[minIndex], arr[i]);
+        int temp;
+        temp = arr[minIndex];
+        arr[minIndex] = arr[i];
+        arr[i] = temp; 
     }
 }

@@ -1,14 +1,25 @@
-#include <stdio.h>
-
-int main(void)
+void printArray(int arr[], int n)
 {
-    int n;
-    int i = 0;
-    scanf("%d", n);
-    do
+    for(int i = 0; i < n; i++)
     {
-        int nums;
-        scanf("%d", &nums);
+        printf("%d ", arr[i]);
     }
-    while(i < n);
+    printf("\n");
+}
+
+void bubbleSort(int arr[], int n)
+{
+    for(int i = 0; i < size - 1; i++)
+    {
+        for(int j = i+1; j < size; j++)
+        {
+            if(arr[j] < arr[i])
+            {
+                int temp;
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
 }

@@ -10,8 +10,12 @@ int medianEl(int arr[], int size)
     {
         median = (mid + (mid + 1)) / 2;
     }
+    else
+    {
+        median = mid;
+    }
     
-    return arr[mid];
+    return median;
 }
 
 int main()

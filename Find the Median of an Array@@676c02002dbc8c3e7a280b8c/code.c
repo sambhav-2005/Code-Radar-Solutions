@@ -8,7 +8,8 @@ int medianEl(int arr[], int size)
     int median;
     if(size % 2 == 0)
     {
-        median = arr[(mid + (mid + 1)) / 2];
+
+        median = (arr[mid] + arr[mid + 1])/2;
     }
     else
     {

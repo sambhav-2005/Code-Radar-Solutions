@@ -1,15 +1,7 @@
-void swap(int a, int b)
-{
-    int temp;
-    temp = a;
-    a = b;
-    b = temp;
-}
-
 int mountainPeak(int N)
 {
     int arr[100];
-    int size_arr;
+    int size_arr = 0;
     while(N > 0)
     {
         int digit = N % 10;
@@ -22,7 +14,10 @@ int mountainPeak(int N)
 
     while(start <= end)
     {
-        swap(arr[start], arr[end]);
+        int temp;
+        temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
         start++;
         end--;
     }

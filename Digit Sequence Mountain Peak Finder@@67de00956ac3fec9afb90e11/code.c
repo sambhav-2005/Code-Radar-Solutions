@@ -1,7 +1,7 @@
 void swap(int a, int b)
 {
     int temp;
-    a = temp;
+    temp = a;
     a = b;
     b = temp;
 }
@@ -22,7 +22,7 @@ int mountainPeak(int N)
 
     while(start <= end)
     {
-        swap(arr[start], arr[end])
+        swap(arr[start], arr[end]);
         start++;
         end--;
     }

@@ -1,7 +1,7 @@
 void swap(int a, int b)
 {
     int temp;
-    int a = temp;
+    a = temp;
     a = b;
     b = temp;
 }

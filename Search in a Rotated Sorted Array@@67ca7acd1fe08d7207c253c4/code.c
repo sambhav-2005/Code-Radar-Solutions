@@ -5,7 +5,7 @@ int searchInRotatedArray(int arr[], int n, int target)
         if(arr[i] == target)
         {
             return i;
-            break;
         }
     }
+    return -1;
 }

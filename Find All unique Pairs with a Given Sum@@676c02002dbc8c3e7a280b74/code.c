@@ -6,6 +6,11 @@ void pairSum(int arr[], int size, int targetSum)
     {
         for(int j = i + 1; j < size; j++)
         {
+            if(arr[i] == arr[j])
+            {
+                printf("%d %d\n", arr[i], arr[j]);
+                break;
+            }
             if(arr[i] + arr[j] == targetSum)
             {
                 printf("%d %d\n", arr[i], arr[j]);

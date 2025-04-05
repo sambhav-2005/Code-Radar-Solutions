@@ -8,8 +8,8 @@ void pairSum(int arr[], int size, int targetSum)
         {
             if(arr[i] == arr[j])
             {
-                printf("%d %d", arr[i], arr[j]);
-                break;
+                printf("%d %d\n", arr[i], arr[j]);
+                continue;
             }
             if(arr[i] + arr[j] == targetSum)
             {

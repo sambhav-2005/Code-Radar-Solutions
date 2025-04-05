@@ -1,5 +1,18 @@
 #include<stdio.h>
 
+void pairSum(int arr[], int size, int targetSum)
+{
+    for(int i = 0; i < size; i++)
+    {
+        for(int j = i + 1; j < size; j++)
+        {
+            if(arr[i] + arr[j] == targetSum)
+            {
+                printf("%d %d\n", arr[i], arr[j]);
+            }
+        }
+    }
+}
 int main(void)
 {
     int size;
@@ -14,5 +27,5 @@ int main(void)
     scanf("%d", targetSum);
 
 
-
+    return 0;
 }

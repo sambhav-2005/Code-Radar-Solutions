@@ -26,6 +26,7 @@ int main(void)
     int targetSum;
     scanf("%d", targetSum);
 
+    pairSum(arr, size, targetSum);
 
     return 0;
 }

@@ -26,8 +26,11 @@ int majorElement(int arr[], int size)
                 visited[j] = 1;
             }
         }
-        printf("%d %d\n", arr[i], count);
+        if count > size / 2;
+        return arr[i];
     }
+    return -1;
+
 }
 
 int main(void)

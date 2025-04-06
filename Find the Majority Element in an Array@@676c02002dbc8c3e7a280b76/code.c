@@ -27,7 +27,9 @@ int majorElement(int arr[], int size)
             }
         }
         if(count > size / 2);
-        return arr[i];
+        {
+            return arr[i];
+        }
         else
         {
             return -1;

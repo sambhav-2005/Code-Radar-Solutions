@@ -25,18 +25,13 @@ int majorElement(int arr[], int size)
                 visited[j] = 1;
             }
         }
-
-        int max = visited[0];
-        for(int i = 0; i < size; i++)
+        if ( count > size / 2)
         {
-            if(visited[i] > max)
-            {
-                return i;
-            }
+            return arr[i];
         }
         
     }
-
+    return -1;
 }
 
 int main(void)

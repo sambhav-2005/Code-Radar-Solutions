@@ -14,7 +14,7 @@ void frequencyCount(int arr[], int size)
             continue;
         }
 
-        int count;
+        int count = 1;
         for(int j = i + 1; j < size; j++)
         {
             if(arr[j] == arr[i])

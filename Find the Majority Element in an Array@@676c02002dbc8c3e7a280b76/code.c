@@ -17,6 +17,7 @@ int majorElement(int arr[], int size)
         }
 
         int count;
+
         for(int j = i + 1; j < size; j++)
         {
             if(arr[i] == arr[j])
@@ -25,13 +26,8 @@ int majorElement(int arr[], int size)
                 visited[j] = 1;
             }
         }
-        if ( count > size / 2)
-        {
-            return arr[i];
-        }
-        
+        printf("%d %d\n", arr[i], count);
     }
-    return -1;
 }
 
 int main(void)

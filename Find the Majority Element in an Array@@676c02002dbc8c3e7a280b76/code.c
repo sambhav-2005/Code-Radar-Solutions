@@ -26,7 +26,7 @@ int majorElement(int arr[], int size)
                 visited[j] = 1;
             }
         }
-        if count > size / 2;
+        if(count > size / 2);
         return arr[i];
     }
     return -1;

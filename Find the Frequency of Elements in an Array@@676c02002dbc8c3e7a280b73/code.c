@@ -1,31 +1,45 @@
 #include <stdio.h>
-
-int main()
+void frequencyCount(int arr[], int size)
 {
-    int size;
-    scanf("%d", &size);
-
-    int arr[100];
-    int visited[100] = {0};
-
-    for (int i = 0; i < size; i++)
+    int visited[size];
+    for(int i = 0; i < size; i++)
     {
-        scanf("%d", &arr[i]);
+        visited[i] = 0;
+    }
 
-        if (visited[i] == 1)
-            continue;
-
-        int counter = 1;
-        for (int j = i + 1; j < size; j++)
+    for(int i = 0; i < size; i++)
+    {
+        if(visited[i] == 1)
         {
-            if (arr[i] == arr[j])
+            continue;
+        }
+
+        int count;
+        for(int j = i + 1; j < size; j++)
+        {
+            if(arr[j] == arr[i])
             {
-                counter++;
+                count++;
                 visited[j] = 1;
             }
         }
-        printf("%d %d\n", arr[i], counter);
+        printf("%d %d\n", arr[i], count);
     }
+}
+
+int main()
+{
+    int arr[100];
+    int size;
+    scanf("%d", &size);
+
+    for(int i = 0; i < size; i++)
+    {
+        scanf("%d", &arr[i]);
+
+    }
+
+    frequencyCount(arr, size);
 
     return 0;
 }

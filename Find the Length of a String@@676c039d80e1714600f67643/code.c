@@ -1,9 +1,9 @@
 #include<stdio.h>
 
-int getLen(char s[])
+int lengthStr(char str[])
 {
     int count = 0;
-    for(int i = 0; s[i] != '\0'; i++)
+    for (int i = 0; str[i] != '\0'; i++)
     {
         count++;
     }
@@ -14,7 +14,7 @@ int main(void)
 {
     char str[20];
 
-    int len = getLen(str);
+    int len = lengthStr(str);
 
     printf("%d", len);
 

@@ -32,7 +32,8 @@ int countVowels(char str[])
     int n = 0;
     for(int i = s; i <= e; i++)
     {
-        if(toLowercase(str[i]) == 'a' || toLowercase(str[i]) == 'e' || toLowercase(str[i]) == 'i' || toLowercase(str[i]) == 'o' ||toLowercase(str[i]) == 'u')
+        char c = toLowercase(str[i]);
+        if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
         {
             n++;
         }

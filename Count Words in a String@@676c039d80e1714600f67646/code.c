@@ -1,6 +1,15 @@
 #include<stdio.h>
 
-int countWords(char str[])
+int getLen(char s[])
+{
+    int n;
+    for(int i = 0; s[i] != '\0'; i++)
+    {
+        n++;
+    }
+    return n;
+}
+int countWords(char str[], int n)
 {
     int s = 0;
     int e = n -1;
@@ -19,8 +28,8 @@ int main(void)
 {
     char str[50];
     scanf("%s", &str);
-
-    int c = countWords(str);
+    int length = getLen(str);
+    int c = countWords(str, length);
 
     printf("%d", c);
 

@@ -12,7 +12,7 @@ int lengthStr(char str[])
 
 int main(void)
 {
-    char str[20];
+    char str[50];
 
     int len = lengthStr(str);
 

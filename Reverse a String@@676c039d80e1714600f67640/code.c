@@ -15,7 +15,7 @@ void reverseStr(char str[], int n)
     int start = 0;
     int end = n - 1;
 
-    while(start < end)
+    while(start <= end)
     {
         char temp;
         temp = str[start];

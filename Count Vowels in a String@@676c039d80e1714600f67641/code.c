@@ -10,6 +10,20 @@ int getLen(char s[])
     return count;
 }
 
+void toLowercase(char ch)
+{
+    if(ch >= 'a' && ch <= 'z')
+    {
+        return ch;
+    }
+    else
+    {
+        char temp;
+        temp = ch - 'A' + 'a';
+        return temp;
+    }
+}
+
 int countVowels(char str[])
 {
     int length = getLen(str);
@@ -18,7 +32,7 @@ int countVowels(char str[])
     int n = 0;
     for(int i = s; i <= e; i++)
     {
-        if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' ||str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U')
+        if(toLowercase(str[i]) == 'a' || toLowercase(str[i]) == 'e' || toLowercase(str[i]) == 'i' || toLowercase(str[i]) == 'o' ||toLowercase(str[i]) == 'u')
         {
             n++;
         }

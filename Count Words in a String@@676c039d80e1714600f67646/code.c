@@ -29,7 +29,7 @@ int main(void)
     char str[100];
     fgets(str, sizeof(str), stdin);
 
-    if(sizeof(str) = 0)
+    if(sizeof(str) == 0)
     {
         printf("0");
     }

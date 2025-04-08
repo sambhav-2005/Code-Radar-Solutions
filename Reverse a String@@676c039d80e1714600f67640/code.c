@@ -10,9 +10,8 @@ int getLen(char str[])
     return count;
 }
 
-void reverseStr(char str[])
+void reverseStr(char str[], int n)
 {
-    int n = getLen(str);
     int start = 0;
     int end = n - 1;
 
@@ -32,8 +31,9 @@ int main(void)
 {
     char str[20];
     scanf("%s", &str);
+    int length = getLen(str);
 
-    reverseStr(str);
+    reverseStr(str, length);
 
     printf("%s", str);
 

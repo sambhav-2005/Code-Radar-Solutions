@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 int lengthStr(char str[])
 {
@@ -13,7 +14,7 @@ int lengthStr(char str[])
 int main(void)
 {
     char str[50];
-    scanf("%s", &str);
+    fgets(str, sizeof(str), stdin);
 
     int len = lengthStr(str);
 

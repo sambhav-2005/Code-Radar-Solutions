@@ -13,8 +13,8 @@ int getLen(char s[])
 int countWords(char str[], int n)
 {
     int s = 0;
-    int e = n -1;
-    int count;
+    int e = n - 1;
+    int count = 0;
     for(int i = 0; str[i] = e; i++)
     {
         if(str[i] = " ")

@@ -32,7 +32,7 @@ int main(void)
     int length = getLen(str);
     int c = countWords(str, length);
     
-    printf("%d\n", c);
+    printf("%d\n", c + 1);
 
     return 0;
 }

@@ -17,7 +17,7 @@ int countWords(char str[], int n)
     int count = 0;
     for(int i = s; i <= e; i++)
     {
-        if(str[i] == " ")
+        if(str[i] == ' ')
         {
             count++;
         }

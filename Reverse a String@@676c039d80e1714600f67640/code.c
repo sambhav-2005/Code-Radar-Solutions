@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int getLen(char str[])
+int getLen(char s[])
 {
     int count = 0;
     for(int i = 0; str[i] != "\0"; i++)
@@ -30,13 +30,13 @@ void reverseStr(char str[], int n)
 int main(void)
 {
     char str[20];
-    scanf("%c", &str);
+    scanf("%s", &str);
 
     int length = getLen(str);
 
     reverseStr(str, length);
 
-    printf("%c", str);
+    printf("%s", str);
 
     return 0;
 }

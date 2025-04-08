@@ -10,7 +10,7 @@ int getLen(char s[])
     return count;
 }
 
-void toLowercase(char ch)
+char toLowercase(char ch)
 {
     if(ch >= 'a' && ch <= 'z')
     {

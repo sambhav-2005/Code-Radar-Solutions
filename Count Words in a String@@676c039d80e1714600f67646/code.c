@@ -12,10 +12,8 @@ int getLen(char s[])
 
 int countWords(char str[], int n)
 {
-    int s = 0;
-    int e = n - 1;
     int count = 0;
-    for(int i = s; i <= e; i++)
+    for(int i = 0; i < n; i++)
     {
         if(str[i] == ' ')
         {
@@ -27,13 +25,13 @@ int countWords(char str[], int n)
 
 int main(void)
 {
-    char str[50];
+    char str[100];
     scanf("%s", &str);
 
     int length = getLen(str);
 
     int c = countWords(str, length);
-    printf("%d", c);
+    printf("%d\n", c);
 
     return 0;
 }

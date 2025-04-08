@@ -30,12 +30,13 @@ void reverseStr(char str[], int n)
 int main(void)
 {
     char str[20];
-    scanf("%s", &str);
+    scanf("%c", &str);
+
     int length = getLen(str);
 
     reverseStr(str, length);
 
-    printf("%s", str);
+    printf("%c", str);
 
     return 0;
 }

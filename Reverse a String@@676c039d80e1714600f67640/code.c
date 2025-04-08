@@ -10,17 +10,17 @@ int getLen(char s[])
     return count;
 }
 
-void reverseStr(char str[], int n)
+void reverseStr(char s[], int n)
 {
     int start = 0;
     int end = n - 1;
 
     while(start <= end)
     {
-        char temp;
-        temp = str[start];
-        str[start] = str[end];
-        str[end] = temp;
+        char temp[];
+        temp = s[start];
+        s[start] = s[end];
+        s[end] = temp;
         start++;
         end--;
     }

@@ -12,8 +12,9 @@ int getLen(char str[])
 
 void reverseStr(char str[])
 {
+    int n = getLen(str);
     int start = 0;
-    int end = getLen(str) - 1;
+    int end = n - 1;
 
     while(start < end)
     {

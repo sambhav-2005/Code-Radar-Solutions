@@ -13,6 +13,7 @@ int lengthStr(char str[])
 int main(void)
 {
     char str[50];
+    scanf("%s", &str);
 
     int len = lengthStr(str);
 

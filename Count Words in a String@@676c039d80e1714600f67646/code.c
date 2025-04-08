@@ -2,7 +2,7 @@
 
 int getLen(char s[])
 {
-    int n;
+    int n = 0;
     for(int i = 0; s[i] != '\0'; i++)
     {
         n++;

@@ -16,7 +16,7 @@ char toUppercase(char ch)
 
 int main(void)
 {
-    char str[10];
+    char str[20];
     fgets(str, sizeof(str), stdin);
 
     int length = sizeof(str);

@@ -20,7 +20,6 @@ int main(void)
         toUppercase(str[i]);
     }
 
-    printf("%s", str);
 
     return 0;
 }

@@ -1,15 +1,16 @@
 #include<stdio.h>
 
-void toUppercase(char ch)
+char toUppercase(char ch)
 {
     if(ch >= 'A' && ch <= 'Z')
     {
-        printf("%c", ch);
+        return ch;
     }
     else
     {
-        ch = ch - ('a' - 'A');
-        printf("%c", ch);
+        char temp;
+        temp = ch - ('a' - 'A');
+        return temp;
     }
 }
 
@@ -21,7 +22,8 @@ int main(void)
     int length = sizeof(str);
     for(int i = 0; i < length - 1; i++)
     {
-        toUppercase(str[i]);
+        char ch = toUppercase(str[i]);
+        printf("%c", ch);   
     }
 
 

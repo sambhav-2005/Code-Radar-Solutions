@@ -11,6 +11,10 @@ bool checkBinary(char str[], int n)
         {
             isbinary = true;
         }
+        else
+        {
+            isbinary = false;
+        }
     }
     return isbinary;
 }

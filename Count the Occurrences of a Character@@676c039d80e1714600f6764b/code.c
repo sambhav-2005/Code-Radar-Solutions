@@ -16,8 +16,8 @@ int countOccurence(char s[], int n, char ch)
 
 int main(void)
 {
-    char str[20];
-    scanf("%s", &str);
+    char str[50];
+    fgets(str, sizeof(str), stdin);
 
     char ch;
     scanf("%c", &ch);

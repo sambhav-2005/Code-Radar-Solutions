@@ -2,9 +2,9 @@
 #include<string.h>
 #include<stdbool.h>
 
-bool checkBinary(char str[], int n)
+bool checkBinary(char str[])
 {
-    for(int i = 0; i < n; i++)
+    for(int i = 0; str[i] != '\0'; i++)
     {
         if(str[i] == '\n')
         {
@@ -23,9 +23,7 @@ int main(void)
     char str[20];
     fgets(str, sizeof(str), stdin);
 
-    int length = strlen(str);
-
-    if(checkBinary(str, length))
+    if(checkBinary(str))
     {
         printf("Yes");
     }

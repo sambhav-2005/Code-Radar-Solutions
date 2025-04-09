@@ -4,12 +4,12 @@
 
 bool checkBinary(char str[], int n)
 {
-    bool isbinary = false;
+    bool isbinary = true;
     for(int i = 0; i < n; i++)
     {
         if(str[i] == '0' || str[i] == '1')
         {
-            isbinary = true;
+            continue;
         }
         else
         {

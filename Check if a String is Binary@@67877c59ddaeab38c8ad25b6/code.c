@@ -5,8 +5,13 @@
 bool checkBinary(char str[], int n)
 {
     bool isbinary = true;
+
     for(int i = 0; i < n; i++)
     {
+        if(str[i] == " ")
+        {
+            isbinary = false;
+        }
         if(str[i] == '0' || str[i] == '1')
         {
             continue;
@@ -25,11 +30,6 @@ int main(void)
     fgets(str, sizeof(str), stdin);
 
     int length = strlen(str);
-
-    if(length == 0)
-    {
-        printf("Yes");
-    }
 
     if(checkBinary(str, length))
     {

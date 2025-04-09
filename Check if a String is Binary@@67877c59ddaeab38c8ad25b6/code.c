@@ -18,8 +18,9 @@ int main(void)
 {
     char str[20];
     fgets(str, sizeof(str), stdin);
+    int length = strlen(str);
 
-    if(checkBinary(str))
+    if(checkBinary(str, length))
     {
         printf("Yes");
     }

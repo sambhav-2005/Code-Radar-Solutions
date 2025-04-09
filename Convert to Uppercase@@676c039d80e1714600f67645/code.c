@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void toUppercase(char ch)
+char toUppercase(char ch)
 {
     if(ch >= 'A' && ch <= 'Z')
     {

@@ -10,17 +10,15 @@ bool checkBinary(char str[], int n)
         {
             return true;
         }
-        else{
-            return false;
-        }
     }
-
+    return false;
 }
 
 int main(void)
 {
     char str[20];
     fgets(str, sizeof(str), stdin);
+
     int length = strlen(str);
 
     if(checkBinary(str, length))

@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 char toUppercase(char ch)
 {
@@ -19,6 +20,6 @@ int main(void)
     {
         printf("%c", toUppercase(str[i])); 
     }
-    
+
     return 0;
 }

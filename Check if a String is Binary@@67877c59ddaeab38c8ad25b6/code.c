@@ -6,16 +6,12 @@ bool checkBinary(char str[], int n)
 {
     for(int i = 0; i < n; i++)
     {
-        if(str[i] != '0' || str[i] != '1')
-        {
-            return false;
-        }
-        else
+        if(str[i] == '0' || str[i] == '1')
         {
             return true;
         }
     }
-    
+    return false;
 }
 
 int main(void)

@@ -26,6 +26,11 @@ int main(void)
 
     int length = strlen(str);
 
+    if(length == 0)
+    {
+        printf("No");
+    }
+
     if(checkBinary(str, length))
     {
         printf("Yes");

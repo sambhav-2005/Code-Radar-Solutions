@@ -10,7 +10,7 @@ bool checkBinary(char str[], int n)
     {
         if(str[i] == ' ')
         {
-            isbinary = false;
+            continue;
         }
         if(str[i] == '0' || str[i] == '1')
         {

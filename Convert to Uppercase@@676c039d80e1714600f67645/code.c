@@ -17,7 +17,7 @@ char toUppercase(char ch)
 int main(void)
 {
     char str[10];
-    scanf("%s", &str);
+    fgets(str, sizeof(str), stdin);
 
     int length = sizeof(str);
     for(int i = 0; i < length; i++)

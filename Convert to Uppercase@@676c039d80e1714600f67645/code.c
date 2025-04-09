@@ -7,6 +7,10 @@ void toUppercase(char ch)
         ch = ch - ('a' - 'A');
         printf("%c", ch);
     }
+    else
+    {
+        printf("%c", ch);
+    }
 }
 
 int main(void)

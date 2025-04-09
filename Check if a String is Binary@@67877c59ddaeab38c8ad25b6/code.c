@@ -10,8 +10,11 @@ bool checkBinary(char str[], int n)
         {
             return true;
         }
+        else{
+            return false;
+        }
     }
-    return false;
+
 }
 
 int main(void)

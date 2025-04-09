@@ -22,7 +22,7 @@ int main(void)
     int length = sizeof(str);
     for(int i = 0; i < length; i++)
     {
-        toUppercase(str[i]);
+        char c = toUppercase(str[i];)
     }
 
     printf("%s", str);

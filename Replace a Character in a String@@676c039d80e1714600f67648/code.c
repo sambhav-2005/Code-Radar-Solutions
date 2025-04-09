@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
-void replaceChar(char s[], int n, char c, char n)
+void replaceChar(char s[], int n, char ch, char nh)
 {
     for(int i = 0; i < n; i++)
     {
-        if(s[i] == c)
+        if(s[i] == ch)
         {
-            s[i] = n;
+            s[i] = nh;
         }
     }
     printf("%s", s);

@@ -2,13 +2,13 @@
 
 void toUppercase(char ch)
 {
-    if(ch >= 'a' && ch <= 'z')
+    if(ch >= 'A' && ch <= 'Z')
     {
-        ch = ch - ('a' - 'A');
         printf("%c", ch);
     }
     else
     {
+        ch = ch - ('a' - 'A');
         printf("%c", ch);
     }
 }

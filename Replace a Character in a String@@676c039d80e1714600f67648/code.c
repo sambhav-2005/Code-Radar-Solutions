@@ -9,8 +9,8 @@ int main(void)
     char ch;
     scanf("%c", &ch);
 
-    char nwch;
-    scanf("%c", nwch);
+    char nh;
+    scanf("%c", &nh);
 
     int len = strlen(str);
 
@@ -18,7 +18,7 @@ int main(void)
     {
         if(str[i] == ch)
         {
-            str[i] = nwch;
+            str[i] = nh;
         }   
     }
 

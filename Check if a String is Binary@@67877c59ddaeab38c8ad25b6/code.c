@@ -8,7 +8,7 @@ bool checkBinary(char str[], int n)
 
     for(int i = 0; i < n; i++)
     {
-        if(str[i] == "\n")
+        if(str[i] == '\n')
         {
             continue;
         }

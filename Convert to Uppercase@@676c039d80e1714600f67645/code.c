@@ -9,7 +9,7 @@ char toUppercase(char ch)
     else
     {
         char temp;
-        temp = ch - 'a' + 'A';
+        temp = ch - 'a' - 'A';
         return temp;
     }
 }

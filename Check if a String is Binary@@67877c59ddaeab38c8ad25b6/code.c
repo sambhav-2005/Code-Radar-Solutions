@@ -28,7 +28,7 @@ int main(void)
 
     if(length == 0)
     {
-        printf("No");
+        printf("Yes");
     }
 
     if(checkBinary(str, length))

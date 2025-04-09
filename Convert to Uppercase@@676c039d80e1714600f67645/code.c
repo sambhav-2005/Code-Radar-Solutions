@@ -15,7 +15,7 @@ int main(void)
     fgets(str, sizeof(str), stdin);
 
     int length = sizeof(str);
-    for(int i = 0; i < length; i++)
+    for(int i = 0; i < length - 1; i++)
     {
         toUppercase(str[i]);
     }

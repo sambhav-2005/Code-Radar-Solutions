@@ -1,18 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-void replaceChar(char s[], int n, char ch, char nh)
-{
-    for(int i = 0; i < n; i++)
-    {
-        if(s[i] == ch)
-        {
-            s[i] = nh;
-        }
-    }
-    printf("%s", s);
-}
-
 int main(void)
 {
     char str[50];
@@ -23,8 +11,15 @@ int main(void)
     scanf("%c", &nh);
 
     int len = strlen(str);
+    for(int i = 0; i < len; i++)
+    {
+        if(str[i] == ch)
+        {
+            str[i] = nh;
+        }
+    }
 
-    replaceChar(str, len, ch, nh);
+    printf("%s", str);
 
     return 0;
 }

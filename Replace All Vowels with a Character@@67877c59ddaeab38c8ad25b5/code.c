@@ -7,7 +7,7 @@ int main(void)
     scanf("%s", &str);
 
     char ch;
-    scanf("%c", &ch);
+    scanf(" %c", &ch);
 
     int len = strlen(str);
 

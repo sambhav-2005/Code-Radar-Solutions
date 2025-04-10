@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdbool.h>
 
 bool checkPalindromic(char s[], int n)
 {

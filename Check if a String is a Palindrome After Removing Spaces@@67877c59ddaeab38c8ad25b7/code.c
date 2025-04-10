@@ -8,6 +8,10 @@ bool checkPalindromic(char s[], int n)
     {
         for(int j = n; j > 0; j--)
         {
+            if(s[i] == ' ')
+            {
+                continue;
+            }
             if(s[i] != s[j])
             {
                 return false;

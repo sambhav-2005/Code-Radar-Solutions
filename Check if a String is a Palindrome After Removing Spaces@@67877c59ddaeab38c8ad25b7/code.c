@@ -4,21 +4,20 @@
 
 bool checkPalindromic(char s[], int n)
 {
-    for(int i = 0; i < n; i++)
+    int start = 0;
+    int end = n - 1;
+    while(start <= end)
     {
-        for(int j = n; j > 0; j--)
+        if(s[start] != s[end])
         {
-            if(s[i] == ' ')
-            {
-                continue;
-            }
-            if(s[i] != s[j])
-            {
-                return false;
-            }
+            return false;
         }
+        else{
+            start++;
+            end--;
+        }
+        return true;
     }
-    return true;
 }
 
 int main(void)

@@ -7,8 +7,8 @@ int main(void)
     fgets(str, sizeof(str), stdin);
 
     char ch, nh;
-    scanf("%c", &ch);
-    scanf("%c", &nh);
+    scanf(" %c", &ch);
+    scanf(" %c", &nh);
 
     int len = strlen(str);
     for(int i = 0; i < len; i++)

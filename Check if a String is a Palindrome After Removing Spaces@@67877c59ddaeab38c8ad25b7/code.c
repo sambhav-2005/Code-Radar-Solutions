@@ -8,11 +8,7 @@ bool checkPalindromic(char s[], int n)
     int end = n - 1;
     while(start <= end)
     {
-        if(s[start] == ' ')
-        {
-            continue;
-        }
-        else if(s[start] != s[end])
+        if(s[start] != s[end])
         {
             return false;
         }

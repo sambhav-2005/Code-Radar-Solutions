@@ -15,6 +15,8 @@ bool checkPalindromic(char s[], int n)
         else if(s[start] != s[end])
         {
             return false;
+        }
+        else{
             start++;
             end--;
         }

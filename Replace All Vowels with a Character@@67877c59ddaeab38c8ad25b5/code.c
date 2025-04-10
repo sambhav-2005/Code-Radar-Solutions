@@ -1,6 +1,20 @@
 #include<stdio.h>
 #include<string.h>
 
+char toLowercase(char ch)
+{
+    if(ch >= 'a' && ch <= 'z')
+    {
+        return ch;
+    }
+    else
+    {
+        char temp;
+        temp = ch - 'A' + 'a';
+        return temp;
+    }
+}
+
 int main(void)
 {
     char str[20];
@@ -13,7 +27,8 @@ int main(void)
 
     for(int i = 0; i < len; i++)
     {
-        if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
+        char c = toLowercase(str[i]);
+        if(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
         {
             str[i] = ch;
         }
